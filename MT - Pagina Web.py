@@ -13,7 +13,8 @@ import plotly.graph_objects as go
 st.set_page_config(
     page_title = "Encuesta Nacional sobre Uso del Tiempo",
     page_icon = "https://i.imgur.com/2ZnBdH3.png",
-    layout = "wide"
+    layout = "wide",
+    initial_sidebar_state="expanded"
 )
 
 # ----------
